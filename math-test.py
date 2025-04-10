@@ -14,11 +14,16 @@ def addition(x, y):
 def subtraction(x, y):
     return x - y
 
+#add a tan function
+def tan(x):
+    return math.tan(x)
+
 def main():
     print("Sine of 30 degrees:", sine(math.radians(30)))
     print("Cosine of 45 degrees:", cosine(math.radians(45)))
     print("Addition of 5 and 3:", addition(5, 3))
     print("Subtraction of 10 and 4:", subtraction(10, 4))
+    print("Tan of 60 degrees:", tan(math.radians(60)))
 
 if __name__ == "__main__":
     main()
